@@ -31,6 +31,7 @@ using namespace special_attributes;
 using namespace special_functions;
 typedef long long ll;
 typedef long l;
+void software_over_view();
 
 //*********************************************************************************************************************************
 
@@ -291,7 +292,7 @@ void main_menu::menu()
     }
     else if(choice=="3")
     {
-        cout<<"IN Progress, Still working"; getch();
+        software_over_view();
         system("cls");
     }
     else if(choice=="exe")
@@ -6971,5 +6972,48 @@ void Three_D_objects::mm(short ch)
         }
     }
 }
+
+
+void software_over_view()
+{
+    system("cls");
+    sfc(lm);printf("\n\n                   SOFTWARE OVERVIEW");sfc(lc);
+    printf("\n\n  Building Cubes is a smart software which is highly preferred by problem         setters in developing their test files for coding problems. In addition         to that, it provides other multiple applications like -\n");sfc(ww);
+    printf("\n  1. Used for building dynamic test files. ");
+    printf("\n  2. Database tables for SQL queries and test cases for coding problems              can be efficiently built. ");
+    printf("\n  3. Can be used for software and application testing. ");
+    printf("\n  4. Can be used for the study of data structures and algorithms.");sfc(lc);
+    printf("\n\n  It is an open-source software and has good software quality of                  maintainability under which changes can be made to satisfy new requirements     or to correct deficiencies.");sfc(ww);
+    printf("\n\n\n\n\n  press ");sfc(lr);printf("ENTER");sfc(ww);printf(" to continue...");  getch();
+    system("cls");
+    sfc(lm);printf("\n\n                   SOFTWARE OVERVIEW");sfc(lc);
+    printf("\n\n  The software works on the similar concepts of Object-Oriented Programming.");
+    printf("\n  It has four major phases.");
+    sfc(lm);printf("\n\n  Phase 1: ");sfc(ww);printf("User has to create an empty object.");
+    sfc(lm);printf("\n\n  Phase 2: ");sfc(ww);printf("User has to add attributes into his Object. There are two                       major types of attributes, Initializer, and Container.");
+    sfc(lm);printf("\n\n  Phase 3: ");sfc(ww);printf("User has to arrange positions of these attributes into his object.");
+    sfc(lm);printf("\n\n  Phase 4: ");sfc(ww);printf("User has to provide details and add values to all the attributes.");
+    printf("\n\n  Once the user completes all the phases, he can build multiple test files.");
+    printf("\n\n\n\n\n  press ");sfc(lr);printf("ENTER");sfc(ww);printf(" to continue...");getch();
+    system("cls");
+    printf("\n\n  List of ");sfc(lg);printf("CONTAINERS  ");sfc(ww);printf(" available:");sfc(lg);
+    printf("\n  1. INTEGER ");
+    printf("\n  2. REAL    ");
+    printf("\n  3. ARRAY   ");
+    printf("\n  4. STRING  ");
+    printf("\n  5. MATRIX  ");
+    printf("\n  6. TREE    ");
+    printf("\n  7. GRAPH   ");
+    printf("\n  8. CUSTOM_data_type  "); sfc(ww);
+    sfc(ly);printf("\n\n  Initializers");sfc(ww);
+    printf("\n  These are special attribute which can be used for providing the size to         Containers like");
+    printf("\n  1: size of Array");
+    printf("\n  2: size of Matrix");
+    printf("\n  3: edges in Graph");
+    printf("\n  4: rows in Custom data type");
+    printf("\n\n\n\n\n  press ");sfc(lr);printf("ENTER");sfc(ww);printf(" to continue...");getch();
+}
+
+
 
 //  The END
